@@ -1,0 +1,161 @@
+body {
+	margin: 0;
+	padding: 0;
+	direction: rtl;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	padding-bottom: 2px;
+	text-decoration: none;
+}
+
+
+
+nav ul li{
+	margin-left:5px;
+	text-align: center;
+}
+
+
+nav ul li a{
+
+	color: black;
+	padding: 12px;
+	font-size: 22px;
+	border: none;
+}
+
+#homePage{
+	background-color: #e0482d;
+	color: white;
+	padding: 12px;
+	font-size: 22px;
+	border: none;
+}
+
+
+
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul li ul {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	transition: all 0.5s ease;
+	margin-top: 0;
+	display: none;
+	padding: 0%;
+	z-index: 1;
+  }
+
+  .dropDown{
+	  background-color: white;
+  }
+  
+  ul li:hover > ul,
+  ul li ul:hover {
+	visibility: visible;
+	opacity: 1;
+	display: block;	
+	min-width: 130px;
+
+  }
+  
+  ul li ul li {
+	clear: both;
+	width: 100%;
+	height: fit-content;
+	background-color: white;
+  }
+
+  ul li:hover{
+	background-color: rgb(250, 244, 244)
+	}
+
+  ul li ul li:hover{
+	background-color: rgb(250, 244, 244)
+	}
+
+  ul li ul li a{
+	  text-align: right;
+	  margin: 2px;
+  }
+
+  ul li ul li a:hover{
+	  color: #212329;
+  }
+
+
+.columns {
+	color: rgb(131, 139, 131);
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding: 1;
+	margin: 1;
+	list-style: none;
+}
+
+.column {
+	color: rgb(131, 139, 131);
+}
+
+.navbar{
+	background-color: #f7bf50;
+	background-repeat: no-repeat;
+	height: 50px;
+}
+
+.navbar-row {
+	display: flex;
+	justify-content: space-between;
+	background-color: #f7bf50;
+	background-repeat: no-repeat;
+	height: 50px;
+
+}
+h1 {color: blue; text-align: center;}#User_Name {background-color: #CCFFE5; color: black;}button {
+
+  border: none;
+  color: black;
+  padding: 15px ;
+  text-align: center;
+  text-decoration: rtl;
+  decoration: rtl;
+  display: inline-block;
+  font-size: 26px;
+  margin:5px 5px 30px 800px;
+  cursor: pointer;
+  width: 180px; 
+  background-color:#f7bf50;
+  
+}
+
+
+
+
+
+}
