@@ -6,6 +6,19 @@ body {
 }
 
 
+table{
+  margin: 1000px;
+  padding: 10px;
+  margin: 0 auto;
+  border: 5px solid navy;
+  border-color: #FFFF99; 
+  border-radius: 7px;
+}
+
+#profileImg{
+  margin-left: 400px;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -13,15 +26,6 @@ ul {
 	overflow: hidden;
 	background-color: white;
   
-}
-
-table{
-    margin: 1000px;
-    padding: 10px;
-    margin: 0 auto;
-    border: 5px solid navy;
-    border-color: #FFFF99;
-    border-radius: 7px;
 }
 
 nav{
@@ -191,6 +195,12 @@ button {
 	display: flex;
 	justify-content: space-between;
 }
-
-
+img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 
