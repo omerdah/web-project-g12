@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	direction: rtl;
+	font-family: 'Varela_Round', sans-serif;
 }
 
 
@@ -137,7 +138,10 @@ nav ul li ul {
 	height: 50px;
 
 }
-h1 {color: blue; text-align: center;}#User_Name {background-color: #CCFFE5; color: black;}button {
+h1 {color: blue; text-align: center;
+}
+#User_Name {background-color: #CCFFE5; color: black;}
+button {
 
   border: none;
   color: black;
@@ -158,4 +162,4 @@ h1 {color: blue; text-align: center;}#User_Name {background-color: #CCFFE5; co
 
 
 
-}
+}
